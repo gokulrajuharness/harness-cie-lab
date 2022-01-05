@@ -1,0 +1,15 @@
+connector:
+  name: gokul docker registry
+  identifier: gokul_docker_registry
+  description:
+  orgIdentifier: default
+  projectIdentifier: bootcampciegokul
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: https://hub.docker.com/_/hello-world
+    providerType: DockerHub
+    auth:
+      type: UsernamePassword
+      spec:
+        username: gokulrajuharness
+        passwordRef: Githubtokengokul
